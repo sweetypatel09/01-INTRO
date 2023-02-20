@@ -1,0 +1,11 @@
+/* selector{ property:value } */
+ /* Never contains HTML tags */
+ h2 {
+  color: greenyellow;
+  background-color: brown;
+}
+
+p{
+ color: antiquewhite;
+ background-color: teal;
+}

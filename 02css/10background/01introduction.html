@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper div {
+            height: 200px;
+            margin: 13px;
+            border: 15px dotted rgba(0, 128, 128, 0.418);
+        }
+
+        .background-color {
+            background-color: blue;
+        }
+
+        .background-image {
+            background-image: url(images.jpg);
+        }
+
+        .background-repeat {
+            background-image: url(images.jpg);
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+            background-color: gray;
+        }
+
+        .background-attachment {
+            background-image: url(images.jpg);
+            background-repeat: repeat-x;
+            background-attachment: fixed;
+        }
+
+        .background-clip {
+            padding: 20px;
+            background-image: url(images.jpg);
+            /* background-clip:border-box; */
+            background-clip: content-box;
+        }
+
+        .background-origin {
+            padding: 20px;
+            background-image: url(images.jpg);
+            background-origin: border-box;
+        }
+
+        .background-position {
+            padding: 20px;
+            background-image: url(images.jpg);
+            /* background-position:0% ; */
+            /* background-position:top ; */
+            /* background-position:bottom ; */
+            /* background-position:50% 50% ; */
+            background-position: center 40%;
+            background-repeat: no-repeat;
+        }
+        
+        .background-size {
+            background-image: url(images.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .background-shorthand {
+            /* background: url(images.jfif) no-repeat center center fixed / contain; */
+            background: url(images.jpg) no-repeat center center /cover fixed;
+            /* background-size: contain; */
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> background-color</li>
+        <li> background-image</li>
+        <li> background-repeat</li>
+        <li> background-attachment</li>
+        <li> background-clip</li>
+        <li> background-origin</li>
+        <li> background-position</li>
+        <li> background-size</li>
+    </ul>
+    <div class="wrapper">
+
+        <div class="background-color">
+            <h2>background-color</h2>
+        </div>
+        <div class="background-image">
+            <h2>background-image</h2>
+        </div>
+        <div class="background-repeat">
+            <h2>background-repeat</h2>
+        </div>
+        <div class="background-attachment">
+            <h2>background-attachment</h2>
+        </div>
+        <div class="background-clip">
+            <h2>background-clip</h2>
+        </div>
+        <div class="background-origin">
+            <h2>background-origin</h2>
+        </div>
+        <div class="background-position">
+            <h2>background-position</h2>
+        </div>
+        <div class="background-size">
+            <h2>background-size</h2>
+        </div>
+        <div class="background-shorthand">
+            <h2>background-shorthand</h2>
+        </div>
+    </div>
+</body>
+
+</html>
+
